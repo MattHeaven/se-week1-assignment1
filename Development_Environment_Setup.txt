@@ -1,0 +1,117 @@
+Setup Document for Development Environment -Week 1 Assignment
+Matthew Muthee
+
+---
+
+Task 1: Select and Install Your Operating System (OS)
+
+Step 1: Download Windows 11
+1. Visit the Windows 11 download page: https://www.microsoft.com/software-download/windows11
+2. Click on "Download Now" and follow the instructions to create a Windows 11 installation media.
+
+Step 2: Install Windows 11
+1. Boot your computer from the Windows 11 installation media.
+2. Follow the on-screen instructions to install Windows 11 on your machine.
+3. Activate Windows 11 using a valid product key if prompted.
+
+---
+
+Task 2: Install a Text Editor or Integrated Development Environment (IDE)
+
+Step 1: Download Visual Studio Code
+1. Visit the Visual Studio Code download page: https://code.visualstudio.com/Download
+2. Click on the appropriate version for your OS and download the installer.
+
+Step 2: Install Visual Studio Code
+1. Run the downloaded installer.
+2. Follow the on-screen instructions to complete the installation.
+3. Launch Visual Studio Code.
+
+---
+
+Task 3: Set Up Version Control System
+
+Step 1: Install Git
+1. Visit the Git download page: https://git-scm.com/download/win
+2. Download the Git installer for Windows.
+3. Run the installer and follow the on-screen instructions to complete the installation.
+
+Step 2: Configure Git
+1. Open Git Bash.
+2. Configure your Git username and email:
+   git config --global user.name "Your Name"
+   git config --global user.email "youremail@example.com"
+
+Step 3: Create a GitHub Account
+1. Visit GitHub: https://github.com and sign up for an account.
+
+Step 4: Initialize a Git Repository
+1. Open Visual Studio Code.
+2. Open the terminal (View > Terminal).
+3. Initialize a Git repository:
+   git init
+4. Make your first commit:
+   git add .
+   git commit -m "Initial commit"
+5. Push to GitHub:
+   git remote add origin https://github.com/mattheaven/repo.git
+   git push -u origin master
+
+---
+
+Task 4: Install Necessary Programming Languages and Runtimes
+
+Step 1: Install Python
+1. Visit the Python download page: https://www.python.org/downloads/
+2. Download the latest version of Python.
+3. Run the installer and make sure to check the box "Add Python to PATH".
+4. Verify the installation:
+   python --version
+
+---
+
+Task 5: Install Package Managers
+
+Step 1: Install pip (Python Package Manager)
+1. Pip is included with Python 3. Ensure it is installed:
+   pip --version
+
+---
+
+Task 6: Configure a Database (MySQL)
+
+Step 1: Download MySQL
+1. Visit the MySQL download page: https://dev.mysql.com/downloads/windows/installer/5.7.html
+2. Download the MySQL Installer.
+
+Step 2: Install MySQL
+1. Run the MySQL Installer.
+2. Follow the on-screen instructions to install MySQL.
+3. Select MySQL server
+
+---
+
+Task 8: Explore Extensions and Plugins
+
+Step 1: Explore Visual Studio Code Extensions
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking the Extensions icon in the Activity Bar.
+3. Search for and install desired extensions:
+   - Python
+   - Live Server
+   - Prettier - Code formatter
+
+---
+
+Reflection on Challenges and Strategies
+
+During the setup process, there's several challenges I encountered, such as compatibility issues, configuration errors, or network-related problems. Here are some common challenges and strategies to overcome them:
+
+- Challenge: Compatibility Issues
+  - Strategy: Ensure that the system meets the minimum requirements for the software being installed. Use virtualization to create compatible environments if necessary.
+
+- Challenge: Configuration Errors
+  - Strategy: Follow the installation guides carefully and refer to official documentation for troubleshooting. Seek help from community forums or support channels if needed.
+
+- Challenge: Network Problems
+  - Strategy: Check the internet connection and firewall settings. Retry downloads or use alternative download sources if available.
